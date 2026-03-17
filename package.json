@@ -1,0 +1,17 @@
+{
+	"name": "taimer",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"start": "electrobun dev",
+		"dev": "electrobun dev --watch",
+		"build:canary": "electrobun build --env=canary"
+	},
+	"dependencies": {
+		"electrobun": "latest"
+	},
+	"devDependencies": {
+		"typescript": "^5.9.3"
+	}
+}
